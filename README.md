@@ -9,3 +9,8 @@ These scripts can be installed to monitor system activity.
 1. Navigate to the working directory where the script is located.
 2. ```chmod +x script.sh```
 3. ```sh script.sh```
+
+# Daemon level modifications
+```sudo systemctl daemon-reload```
+```sudo systemctl enable /etc/systemd/system/NEW_SERVICE.service```
+```sudo systemctl start /etc/systemd/system/NEW_SERVICE.service```
