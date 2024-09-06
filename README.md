@@ -12,5 +12,7 @@ These scripts can be installed to monitor system activity.
 
 # Daemon level modifications
 ```sudo systemctl daemon-reload```
+
 ```sudo systemctl enable /etc/systemd/system/NEW_SERVICE.service```
+
 ```sudo systemctl start /etc/systemd/system/NEW_SERVICE.service```
