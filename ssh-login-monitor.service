@@ -1,0 +1,13 @@
+# /etc/systemd/system/ssh-login-monitor.service
+
+[Unit]
+Description=SSH Login Monitoring Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/ssh-login-monitor.sh
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
