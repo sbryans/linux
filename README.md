@@ -18,6 +18,7 @@ These scripts can be installed to monitor system activity.
 ```sudo systemctl start /etc/systemd/system/NEW_SERVICE.service```
 
 > rsyslog does not always come pre-installed
+
 ```sudo apt update```
 
 ```sudo apt install rsyslog```
