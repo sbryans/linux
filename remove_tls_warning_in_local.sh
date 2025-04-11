@@ -10,7 +10,6 @@ if [ ! -f "$IP_FILE" ]; then
     exit 1
 fi
 while IFS= read -r IP; do
-    # Skip empty lines or lines starting with # (comments)
     if [[ -z "$IP" || "$IP" =~ ^# ]]; then
         continue
     fi
