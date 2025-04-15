@@ -1,9 +1,3 @@
-# Linux Scripts
-
-These scripts can be installed to monitor system activity.
-
-> Scripts are geared toward Debian based operating systems.
-
 # Daemon level modifications
 ```sudo systemctl daemon-reload```
 
